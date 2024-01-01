@@ -1,19 +1,16 @@
-<script>
-    import {page} from '$app/stores';    
+<script>   
 </script>
 <div id='container'>
-    {#if $page.route.id !== '/'}
     <div id='navBar'>
-            [<a href='/home'>Witch Effect</a>]-[<a href='/_n'>_n</a>|<a href='/pedals'>pedals</a>|<a href='/sprites'>sprites</a>|<a href='/letsdraw'>let's draw</a>]
+            [<a href='/'>Witch Effect</a>] - [<a href='/_n'>_n</a>|<a href='/pedals'>pedals</a>|<a href='/sprites'>sprites</a>|<a href='/letsdraw'>let's draw</a>|<a href='https://witcheffect.com/a-stream'>stream</a>]
     </div>
-    {/if}
     <div id='contents'>
     <slot />
     </div>
 </div>
 <style>
     #container{
-        height:calc(100vh - 20px);
+        height:calc(100svh - 20px);
         width:calc(100vw - 20px);
         padding:10px;
         display:flex;
@@ -22,6 +19,9 @@
     #navBar{
         font-size:150%;
         font-weight: bold;
+        display:flex;
+        width:100%;
+        flex-wrap: wrap;
     }
     #contents{
         font-size:100%;

@@ -138,14 +138,14 @@ title:'Samurai Flamenco - Mar 5, 2014',
         left: 0px;
         z-index: 1;
         width:100vw;
-        height:100vh;
+        height:100svh;
         background: rgba(0,0,0, 0.75);
         display:flex;
         justify-content: center;
         align-items: center;
     }
     #zoomedimg{			
-        max-height: 80vh;
+        max-height: 80svh;
         max-width: 80vw;
         padding:5px;
         border:dashed 2px #877d49;

@@ -1,12 +1,10 @@
 <center>
-<a href="/home">
-    <img
-        id="landingImg"
-        style="border-style: dashed; padding: 10px"
-        src="landing.jpg"
-        alt='landing'
-    />
-</a>
+  <img
+      id="landingImg"
+      style="border-style: dashed; padding: 10px"
+      src="landing.jpg"
+      alt='landing'
+  />
 </center>
 <style>
     center{
