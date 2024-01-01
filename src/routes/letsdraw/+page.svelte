@@ -96,7 +96,7 @@ title:'Samurai Flamenco - Mar 5, 2014',
             <div class='postContainer' on:click={()=>{selImg = post.img}}>
                 <h4>{post.title}</h4>
                 <div>
-                    <img src={`/img/letsdraw/${post.img} Thumbnail.jpg`} alt={post.img}/>
+                    <div><img src={`/img/letsdraw/${post.img} Thumbnail.jpg`} alt={post.img}/></div>
                     <div>{@html post.desc}</div>
                 </div>
             </div>

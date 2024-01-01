@@ -1,5 +1,5 @@
 <br>A timeline of my expensive hobby of buying pedals<hr>
-<table style='display:inline-block;width:450px;vertical-align:top'>
+<table>
     <tr><th>Pedal</th><th>Bought</th></tr>
     <tr><td>Digitech RP2000 Multi</td><td>2012</td></tr>
     <tr><td>Boss DS-1</td><td>2013</td></tr>
