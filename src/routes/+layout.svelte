@@ -4,7 +4,7 @@
 <div id='container'>
     {#if $page.route.id !== '/'}
     <div id='navBar'>
-            [<a href='/home'>Witch Effect</a>]-[<a href='/_n'>_n</a>|<a href='/pedals'>pedals</a>|<a href='/sprites'>sprites</a>|]
+            [<a href='/home'>Witch Effect</a>]-[<a href='/_n'>_n</a>|<a href='/pedals'>pedals</a>|<a href='/sprites'>sprites</a>|<a href='/letsdraw'>let's draw</a>]
     </div>
     {/if}
     <div id='contents'>

@@ -1,4 +1,4 @@
-<h3>A timeline of my expensive hobby of buying pedals</h3>
+<br>A timeline of my expensive hobby of buying pedals<hr>
 <table style='display:inline-block;width:450px;vertical-align:top'>
     <tr><th>Pedal</th><th>Bought</th></tr>
     <tr><td>Digitech RP2000 Multi</td><td>2012</td></tr>
