@@ -11,6 +11,18 @@
         let date = new Date(string);
         return `${date.getFullYear()}-${date.getMonth().toString().padStart(2,0)}-${date.getDay().toString().padStart(2,0)}`;
     }
+    $: getSprites = () =>{
+        return imgArr
+            .filter(x=>getName(x.path).toLowerCase().includes(search.toLowerCase()))
+            .filter(x=>[1,2,3].some(y=>x.version == ('v' + y) && gen[y]))
+            .sort((a,b)=>{
+                if(sort == 'name'){
+                    return a.path > b.path ? 1 : -1;
+                } else {
+                    return new Date(b.date).getTime() - new Date(a.date).getTime()
+                }
+            })
+    }
 </script>
 <div class='container'>
     <div>
@@ -24,22 +36,11 @@
         | Sort
         <input type='radio' bind:group={sort} value='name'> Name
         <input type='radio' bind:group={sort} value='date'> Date
-        | Count: {imgArr
-            .filter(x=>x.path.toLowerCase().includes(search.toLowerCase()))
-            .filter(x=>[1,2,3].some(y=>x.version == ('v' + y) && gen[y])).length}
+        | Count: {getSprites().length}
         <hr>
     </div>
     <div id='spriteContainer'>    
-        {#each imgArr
-            .filter(x=>x.path.toLowerCase().includes(search.toLowerCase()))
-            .filter(x=>[1,2,3].some(y=>x.version == ('v' + y) && gen[y]))
-            .sort((a,b)=>{
-                if(sort == 'name'){
-                    return a.path > b.path ? 1 : -1;
-                } else {
-                    return new Date(b.date).getTime() - new Date(a.date).getTime()
-                }
-            }) as src}
+        {#each getSprites() as src}
         <div class='spriteContainer'>
             <div>
                 <div class='imageContainer'><img src={src.path} alt={src.path} /></div>
@@ -61,7 +62,7 @@
         align-items: center;
         justify-content: center;
         width:100%;
-        height:100%;
+        max-height:100%;
     }
     .spriteContainer{
         width:200px; 
