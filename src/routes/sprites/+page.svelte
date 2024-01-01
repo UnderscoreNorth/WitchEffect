@@ -5,10 +5,11 @@
     let sort = 'name';    
     let gen = [true,true,true,true];
     const getName = (url)=>{
-        return url.substring(17).replace(/\..+$/,'').replace(/v\d/,'').trim();
+        return url.replace(/^.+\//, '').replace(/\..+$/,'').replace(/v\d/,'').trim();
     }
-    const getDate = (date)=>{
-        return new Date(date).toDateString();
+    const getDate = (string)=>{
+        let date = new Date(string);
+        return `${date.getFullYear()}-${date.getMonth().toString().padStart(2,0)}-${date.getDay().toString().padStart(2,0)}`;
     }
 </script>
 <div class='container'>
@@ -42,8 +43,9 @@
         <div class='spriteContainer'>
             <div>
                 <div class='imageContainer'><img src={src.path} alt={src.path} /></div>
-                <div>{getName(src.path)}
-                    {getDate(src.date)}
+                <div>{getDate(src.date)}<br>
+                    {getName(src.path)}
+                    
                 </div>
             </div>
         </div>
@@ -54,12 +56,13 @@
     #spriteContainer{
         flex-shrink: 1;
         overflow-y: auto;
+        display:flex;
+        flex-wrap: wrap;
+        width:100%;
+        height:100%;
     }
     .spriteContainer{
-        display:inline-block;
-        width:200px;       
-        height: 75px;
-        vertical-align: top;
+        width:200px; 
     }
     .spriteContainer>div{
         display:flex;
@@ -71,6 +74,6 @@
         text-align: center;
     }
     img{
-        max-height: 100%;
+        max-height: 75px;
     }
 </style>

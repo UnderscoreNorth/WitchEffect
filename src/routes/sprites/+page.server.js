@@ -1,16 +1,15 @@
 import { statSync } from 'fs';
+const imgs = import.meta.glob('../../../static/img/sprites/*.*');
+
 export async function load({ params }) {
-	const allimgsf = import.meta.glob('$lib/sprites/*.*');
-	const iterableImages = Object.entries(allimgsf);
-	let imgArr = await Promise.all(
-		iterableImages.map(async ([path, resolver]) => {
-			const imgPath = path;
+	return {
+		imgArr: Object.keys(imgs).map((i) => {
+			let file = i.replace(/^.+\//, '');
 			return {
-				date: await statSync(`.\\` + imgPath).mtime,
-				version: imgPath.match(/v\d/)[0],
-				path: imgPath
+				date: statSync('static/img/sprites/' + file).mtime,
+				version: file.match(/v\d/)[0],
+				path: '/img/sprites/' + file
 			};
 		})
-	);
-	return { imgArr };
+	};
 }
