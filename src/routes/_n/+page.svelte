@@ -1,7 +1,7 @@
 <br />
 <div id="header">
-	_North - [
-	<a href="http://last.fm/user/UnderscoreNorth">last.fm</a>|<a
+	_North<br />
+	[<a href="http://last.fm/user/UnderscoreNorth">last.fm</a>|<a
 		href="http://myanimelist.net/profile/_North">mal</a
 	>|<a href="http://pixiv.net/member.php?id=8550335">pixiv</a>|<a
 		href="https://rateyourmusic.com/~_North">rym</a
@@ -31,10 +31,5 @@ me know. Thank you.<br />
 <style>
 	img {
 		max-width: 80vw;
-	}
-	#header {
-		width: 100%;
-		display: flex;
-		flex-wrap: wrap;
 	}
 </style>
