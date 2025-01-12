@@ -4,12 +4,13 @@
 <div id="container">
 	<div id="navBar">
 		<a href="/">Witch Effect</a>
-		<hr />
+		<div><hr /></div>
 		<a href="/_n">_north</a>
-		<br /><a href="/pedals">pedals</a>
-		<br /><a href="/sprites">sprites</a><br /><a href="/letsdraw">let's draw</a><br /><a
-			href="https://witcheffect.com/a-stream">stream</a
-		>
+		<a href="/pedals">pedals</a>
+		<a href="/sprites">sprites</a>
+		<a href="/letsdraw">let's draw</a>
+		<a href="https://witcheffect.com/a-stream">stream</a>
+		<a href="/cds">CDs</a>
 	</div>
 	<div id="contents">
 		<slot />
@@ -28,6 +29,8 @@
 		background: rgba(0, 0, 0, 0.25);
 		border-right: dashed #877d49;
 		padding: 10px;
+		display: flex;
+		flex-direction: column;
 	}
 	#navBar hr {
 		border-color: #877d49;
@@ -39,5 +42,14 @@
 		overflow-y: auto;
 		width: 100%;
 		padding: 10px;
+	}
+	@media (orientation: portrait) {
+		#container {
+			flex-direction: column;
+		}
+		#navBar {
+			width: 100%;
+			display: block;
+		}
 	}
 </style>
