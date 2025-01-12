@@ -1842,6 +1842,157 @@
 			artist: 'Various Artists',
 			album: 'Saigon Supersound Vol. 1',
 			year: 2017
+		},
+
+		{
+			url: 'https://e.snmc.io/i/75/w/48c6f3c88640dd37fbf2295514746f65/2526405',
+			artist: 'Iron Maiden',
+			album: 'Fear of the Dark',
+			year: 1992
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/ccbbf78253816c30350e19a59a6c5d58/10209256',
+			artist: 'Iron Maiden',
+			album: 'The X Factor',
+			year: 1995
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/f17902849bcc252149b48a50b1b1ec7c/2712641',
+			artist: 'Iron Maiden',
+			album: 'Brave New World',
+			year: 2000
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/189d4ac6a268b624968fb03b7bc816b5/6166710',
+			artist: 'Iron Maiden',
+			album: 'Dance of Death',
+			year: 2003
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/65998e5f55a0e92c5b3fc38c45c36947/10209243',
+			artist: 'Iron Maiden',
+			album: 'A Matter of Life and Death',
+			year: 2006
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/716bcca565e0f8274ade916d56c4f6a2/3941981',
+			artist: 'Iron Maiden',
+			album: 'Somewhere Back in Time: The Best Of - 1980-1989',
+			year: 2008
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/d7cc925570d4315a53cf70f9e5aa71c8/3174250',
+			artist: 'Iron Maiden',
+			album: 'The Final Frontier',
+			year: 2010
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/731f3fa1f243afe199fde68dcff2546f/3723328',
+			artist: 'Iron Maiden',
+			album: 'From Fear to Eternity: The Best of 1990-2010',
+			year: 2011
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/71091d8d6cf37eb24b4246e9fe5d2013/5739872',
+			artist: 'Iron Maiden',
+			album: 'The Book of Souls',
+			year: 2015
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/9a3c957a96d3d7344a1c1aa1c6c4b0ca/9176087',
+			artist: 'Iron Maiden',
+			album: 'Senjutsu',
+			year: 2021
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/641a842565e0355be20c62cc07005e7c/1999681',
+			artist: 'Japanther',
+			album: 'Japanther / Viking Club',
+			year: 2005
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/336b4548e57cb27e4378ad1a746f2b32/6081159',
+			artist: 'jizue',
+			album: 'Story',
+			year: 2016
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/e34c4add11832cbab708a938e06cacdc/2503733',
+			artist: 'Daniel Johnston',
+			album: 'Continued Story / Hi, How Are You',
+			year: 1991
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/8300ca9b18a4766932e1c0440adeb058/10154759',
+			artist: 'Joy Division',
+			album: 'Unknown Pleasures',
+			year: 1979
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/42cd4a21b2f89754ce18a001f4912988/7790079',
+			artist: 'Joy Division',
+			album: 'Closer',
+			year: 1980
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/88fe36b49d7a5be696e588bed7afec12/10752300',
+			artist: 'Judas Priest',
+			album: 'Screaming for Vengeance',
+			year: 1982
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/db756b58c13f8fef59c46779dfd144bd/6763239',
+			artist: 'Judas Priest',
+			album: 'Firepower',
+			year: 2018
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/aca1f0ae4c61b29969098d996ece24fa/1305168',
+			artist: 'Judy and Mary',
+			album: 'The Power Source',
+			year: 1997
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/300fe70e36af1f25ffae754941e2af13/3162466',
+			artist: 'Justice',
+			album: '† [Cross]',
+			year: 2007
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/6b99b1368e75aaa858c180aab2b5041a/6307377',
+			artist: 'JYOCHO',
+			album: '祈りでは届かない距離',
+			year: 2016
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/bdd5a4ad99f311e303cb587f524d7394/6637452',
+			artist: 'JYOCHO',
+			album: '碧い家で僕ら暮らす',
+			year: 2017
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/be206985e696541f7d22b58b1dd530c3/1658923',
+			artist: 'Chieco Kawabe',
+			album: 'Brilliance',
+			year: 2005
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/c667da45002e5362774c9030fce9e69b/6188923',
+			artist: 'Kikagaku Moyo',
+			album: 'House in the Tall Grass',
+			year: 2016
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/db4ebd45bf8dbbb047178d7a34eb5347/1881181',
+			artist: 'Kill Yourself',
+			album: 'Soft Touch of Man',
+			year: 2003
+		},
+		{
+			url: 'https://e.snmc.io/i/75/w/186d266d800935708a711572b19003c9/11804331',
+			artist: 'King Krule',
+			album: 'The Ooz',
+			year: 2017
 		}
 	];
 	const alphabet = [
