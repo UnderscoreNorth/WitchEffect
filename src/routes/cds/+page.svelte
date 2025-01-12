@@ -1874,7 +1874,6 @@
 	const years = ['50', '60', '70', '80', '90', '00', '10', '20'];
 	let sortType = 'Artist';
 	function sort(sortType) {
-		console.log(sortType);
 		CDs = CDs.sort((a, b) => {
 			if (sortType == 'Artist') {
 				if (a.artist == b.artist) {
@@ -1924,7 +1923,6 @@
 						.substring(2) + '0';
 				cd.hue = Math.floor(cd.year / 10) * 60;
 				cd.light = (cd.year % 10) * 5 + 20;
-				console.log(cd.light);
 				cd.letter = decade;
 				if (!decadeStart[cd.letter]) {
 					decadeStart[cd.letter] = cd.letter;
