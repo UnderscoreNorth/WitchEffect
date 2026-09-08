@@ -41,11 +41,13 @@
     <tr><td>Montreal Effects CT5</td><td>2019 Nov</td></tr>      
     <tr><td>Strymon Deco</td><td>2022</td></tr>      
     <tr><td>Copilot FX Simulcast v4</td><td>2022 Feb</td></tr>      
-    <tr><td>Idiotbox No Moon</td>2022 Aug<td></td></tr>      
-    <tr><td>EHX Tri Parallel</td>2022 Nov<td></td></tr>      
-    <tr><td>Caroline Shigeharu</td>2022<td></td></tr>      
+    <tr><td>Idiotbox No Moon</td><td>2022 Aug</td></tr>      
+    <tr><td>EHX Tri Parallel</td><td>2022 Nov</td></tr>      
+    <tr><td>Caroline Shigeharu</td><td>2022</td></tr>      
     <tr><td>Boss CS-3</td><td>2022</td></tr>      
     <tr><td>Donner Dark Mouse</td><td>2022</td></tr>     
     <tr><td>Boss AC-3</td><td>2023 Jan</td></tr>     
-    <tr><td>Zoom G5N</td><td>2023 Aug</td></tr>         
+    <tr><td>Zoom G5N</td><td>2023 Aug</td></tr>
+    <tr><td>Korg XS Tuner</td><td>2026 Jun</td></tr>
+    <tr><td>Boss Blues Driver</td><td>2026 Aug</td></tr>         
 </table>
