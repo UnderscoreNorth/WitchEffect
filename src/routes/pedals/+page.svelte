@@ -2,11 +2,11 @@
 <table>
     <tr><th>Pedal</th><th>Bought</th></tr>
     <tr><td>Digitech RP2000 Multi</td><td>2012</td></tr>
-    <tr><td>Boss DS-1</td><td>2013</td></tr>
+    <tr><td>Boss DS-1 Distortion</td><td>2013</td></tr>
     <tr><td>EHX Little Big Muff</td><td>2013</td></tr>
     <tr><td>EHX Nano Holy Grail</td><td>2013</td></tr>
-    <tr><td>Boss Main Squeeze</td><td>2013</td></tr>
-    <tr><td>Boss NS-2</td><td>2013</td></tr>
+    <tr><td>Digitech Main Squeeze</td><td>2013</td></tr>
+    <tr><td>Boss NS-2 Noise Supressor</td><td>2013</td></tr>
     <tr><td>Digitech Digidelay</td><td>2013</td></tr>
     <tr><td>MXR Phase 90</td><td>2014-2017?</td></tr>
     <tr><td>Singular Sound Beat Buddy</td><td>2017</td></tr>
@@ -44,10 +44,10 @@
     <tr><td>Idiotbox No Moon</td><td>2022 Aug</td></tr>      
     <tr><td>EHX Tri Parallel</td><td>2022 Nov</td></tr>      
     <tr><td>Caroline Shigeharu</td><td>2022</td></tr>      
-    <tr><td>Boss CS-3</td><td>2022</td></tr>      
+    <tr><td>Boss CS-3 Compressor Sustainer</td><td>2022</td></tr>      
     <tr><td>Donner Dark Mouse</td><td>2022</td></tr>     
-    <tr><td>Boss AC-3</td><td>2023 Jan</td></tr>     
+    <tr><td>Boss AC-3 Acoustic Sim</td><td>2023 Jan</td></tr>     
     <tr><td>Zoom G5N</td><td>2023 Aug</td></tr>
     <tr><td>Korg XS Tuner</td><td>2026 Jun</td></tr>
-    <tr><td>Boss Blues Driver</td><td>2026 Aug</td></tr>         
+    <tr><td>Boss BD-2 Blues Driver</td><td>2026 Aug</td></tr>         
 </table>
